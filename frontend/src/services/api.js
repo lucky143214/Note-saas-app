@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4000"; // Change to your Vercel backend URL after deployment
+const BASE_URL = "https://note-backend-gamma.vercel.app"; // Change to your Vercel backend URL after deployment
 
 export const login = async (email, password) => {
   const res = await fetch(`${BASE_URL}/auth/login`, {
