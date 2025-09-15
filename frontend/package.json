@@ -1,13 +1,15 @@
 {
-  "dependencies": {
-    "parcel": "^2.15.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+  "name": "notes-saas-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Notes SaaS App",
   "scripts": {
-  "start": "parcel public/index.html",
-  "build": "parcel build public/index.html --dist-dir dist --public-url ./",
-  "vercel-build": "parcel build public/index.html --dist-dir dist --public-url ./"
-}
-
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html --dist-dir dist --public-url ./",
+    "vercel-build": "parcel build public/index.html --dist-dir dist --public-url ./"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "parcel": "^2.9.3"
+  }
 }
