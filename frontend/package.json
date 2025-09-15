@@ -1,0 +1,17 @@
+{
+  "name": "notes-saas-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Notes SaaS App",
+  "scripts": {
+  "start": "parcel public/index.html --port $PORT",
+  "build": "parcel build public/index.html --public-url ./"
+}
+,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

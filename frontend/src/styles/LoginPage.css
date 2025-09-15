@@ -1,0 +1,101 @@
+/* Full page wrapper to center everything */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: #1f2937; /* Dark gray background */
+  font-family: Arial, sans-serif;
+  color: #f9fafb;
+}
+
+/* Card containing everything */
+.login-card {
+  background: #111827; /* Darker card background */
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  width: 360px;
+  text-align: center;
+  color: #f9fafb;
+}
+
+/* Page title */
+.login-card h2 {
+  margin-bottom: 20px;
+  color: #f9fafb;
+}
+
+/* Login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.login-form input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #374151; /* dark gray border */
+  background: #1f2937;
+  color: #f9fafb;
+  font-size: 14px;
+}
+
+.login-form input::placeholder {
+  color: #9ca3af; /* lighter gray placeholder */
+}
+
+.login-form button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background: #4f46e5; /* purple accent */
+  color: #f9fafb;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease-in-out;
+}
+
+.login-form button:hover {
+  background: #4338ca; /* darker purple on hover */
+}
+
+.login-error {
+  color: #f87171; /* red for errors */
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* Sample accounts box */
+.sample-accounts {
+  background: #1f2937; /* dark gray */
+  border: 1px solid #374151;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 14px;
+  color: #f9fafb;
+}
+
+.sample-accounts h4 {
+  margin: 0 0 5px 0;
+  color: #f9fafb;
+}
+
+.sample-accounts ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.sample-accounts li {
+  margin-bottom: 3px;
+}
+
+.sample-accounts p {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #f9fafb;
+}

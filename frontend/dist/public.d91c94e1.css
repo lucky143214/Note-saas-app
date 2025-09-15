@@ -1,0 +1,256 @@
+.login-wrapper {
+  color: #f9fafb;
+  background: #1f2937;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.login-card {
+  text-align: center;
+  color: #f9fafb;
+  background: #111827;
+  border-radius: 10px;
+  width: 360px;
+  padding: 30px 40px;
+  box-shadow: 0 6px 15px #00000080;
+}
+
+.login-card h2 {
+  color: #f9fafb;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.login-form input {
+  color: #f9fafb;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.login-form input::placeholder {
+  color: #9ca3af;
+}
+
+.login-form button {
+  color: #f9fafb;
+  cursor: pointer;
+  background: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  transition: background .2s ease-in-out;
+}
+
+.login-form button:hover {
+  background: #4338ca;
+}
+
+.login-error {
+  color: #f87171;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.sample-accounts {
+  text-align: left;
+  color: #f9fafb;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.sample-accounts h4 {
+  color: #f9fafb;
+  margin: 0 0 5px;
+}
+
+.sample-accounts ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.sample-accounts li {
+  margin-bottom: 3px;
+}
+
+.sample-accounts p {
+  color: #f9fafb;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.notes-container {
+  color: #1f2937;
+  background-color: #3c80c5;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body {
+  background-color: #90ee90;
+}
+
+.notes-header {
+  border-bottom: 2px solid #6d7179;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.notes-header span {
+  color: #111827;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.notes-header button {
+  color: #fff;
+  cursor: pointer;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: background-color .3s;
+}
+
+.notes-header button:hover {
+  background: #1e40af;
+}
+
+.upgrade-banner {
+  color: #0369a1;
+  background: #e0f2fe;
+  border: 1px solid #bae6fd;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 20px;
+  font-weight: 500;
+  display: flex;
+}
+
+.upgrade-banner button {
+  color: #fff;
+  cursor: pointer;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: background-color .3s;
+}
+
+.upgrade-banner button:hover {
+  background: #1e40af;
+}
+
+.notes-form {
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.notes-form input, .notes-form textarea {
+  color: #1f2937;
+  background-color: #8c2020;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 12px 15px;
+  font-family: inherit;
+  font-size: 16px;
+  transition: border-color .3s;
+}
+
+.notes-form input:focus, .notes-form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 5px #2563eb80;
+}
+
+.notes-form button {
+  color: #fff;
+  cursor: pointer;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color .3s;
+}
+
+.notes-form button:hover {
+  background: #1e40af;
+}
+
+.notes-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.note-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  transition: box-shadow .3s;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.note-card:hover {
+  box-shadow: 0 6px 12px #00000026;
+}
+
+.note-card h4 {
+  color: #111827;
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.note-card p {
+  color: #4b5563;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.note-card button {
+  color: #fff;
+  cursor: pointer;
+  background: #ef4444;
+  border: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  padding: 8px 16px;
+  font-weight: 600;
+  transition: background-color .3s;
+}
+
+.note-card button:hover {
+  background: #b91c1c;
+}
+/*# sourceMappingURL=public.d91c94e1.css.map */

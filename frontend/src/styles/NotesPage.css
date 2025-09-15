@@ -1,0 +1,160 @@
+/* src/styles/NotesPage.css */
+
+.notes-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #3c80c5;
+  color: #1f2937;
+}
+.body{
+background-color : lightgreen;
+}
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #6d7179;
+  padding-bottom: 10px;
+}
+
+.notes-header span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.notes-header button {
+  padding: 10px 20px;
+  background: #2563eb; /* Professional blue */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.notes-header button:hover {
+  background: #1e40af;
+}
+
+.upgrade-banner {
+  padding: 20px;
+  background: #e0f2fe; /* Light blue background */
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  border: 1px solid #bae6fd;
+  color: #0369a1;
+  font-weight: 500;
+}
+
+.upgrade-banner button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.upgrade-banner button:hover {
+  background: #1e40af;
+}
+
+.notes-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.notes-form input,
+.notes-form textarea {
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+  font-family: inherit;
+  color: #1f2937;
+  background-color: #8c2020;
+  transition: border-color 0.3s ease;
+}
+
+.notes-form input:focus,
+.notes-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+.notes-form button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.notes-form button:hover {
+  background: #1e40af;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.note-card {
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.note-card:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.note-card h4 {
+  margin: 0 0 10px 0;
+  color: #111827;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.note-card p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.note-card button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: #ef4444; /* Softer red */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.note-card button:hover {
+  background: #b91c1c;
+}
