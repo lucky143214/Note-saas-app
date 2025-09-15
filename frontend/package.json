@@ -2,6 +2,7 @@
   "name": "notes-saas-frontend",
   "version": "1.0.0",
   "description": "Frontend for Notes SaaS App",
+  "main": "src/index.js",
   "scripts": {
     "start": "parcel public/index.html",
     "build": "parcel build public/index.html --dist-dir dist --public-url ./",
